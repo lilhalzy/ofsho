@@ -1,3 +1,1 @@
-<p align="center">
-  ![Metrics](./github-metrics.svg)
-</p>
+![Metrics](./github-metrics.svg)
