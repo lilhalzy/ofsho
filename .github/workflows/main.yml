@@ -31,6 +31,7 @@ jobs:
           plugin_languages_colors: github
           plugin_languages_ignored: Ruby
           plugin_languages_threshold: 0%
+          plugin_languages_indepth: yes
           plugin_lines: yes                                 # Limit to 4 entries
           plugin_projects_descriptions: yes                           # Display projects descriptions
           plugin_followup: yes
@@ -39,4 +40,7 @@ jobs:
           plugin_habits_from: 200       # Use 200 events to compute habits
           plugin_habits_days: 30        # Keep only events from last 14 days
           plugin_habits_facts: yes      # Display facts section
-          plugin_habits_charts: yes     # Display charts section
+          plugin_stars: yes
+          plugin_stars_limit: 3
+          plugin_licenses: yes
+          plugin_licenses_ratio: yes
