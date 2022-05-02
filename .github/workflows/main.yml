@@ -1,4 +1,3 @@
-
 # Visit https://github.com/lowlighter/metrics/blob/master/action.yml for full reference
 name: Metrics
 on:
@@ -24,7 +23,7 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_timezone: America/New_York
           plugin_activity: yes
-          plugin_activity_days: 14
+          plugin_activity_days: 26
           plugin_activity_filter: all
           plugin_activity_limit: 5
           plugin_isocalendar: yes
